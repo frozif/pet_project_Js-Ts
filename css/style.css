@@ -37,15 +37,12 @@ li{
 .header_main {
       background: linear-gradient(180deg, #f3d6d1 0%, rgba(235, 235, 235, 0) 100%);
 }
-.container {
-}
+
 .header_nav {
   display: flex;
       align-items: center;
     justify-content: space-between;
         padding-top: 40px;
-}
-.header_nav_img {
 }
 .header_nav_up {
   font-weight: 700;
@@ -277,10 +274,7 @@ background: rgba(217, 217, 217, 0);
 .section_Colorinfo {
 margin-top: 150px;
 }
-.container {
-}
-.Colorinfo_main {
-}
+
 .Colorinfo_txt {
       display: flex;
     flex-direction: column;
@@ -347,8 +341,7 @@ width: 230px;
     align-items: center;
     justify-content: center;
 }
-.container {
-}
+
 .section_batteryMain {
         display: flex;
     flex-direction: column;
@@ -396,8 +389,7 @@ margin-top: 40px;
 .section_downInfo {
   margin-top: 80px;
 }
-.container {
-}
+
 .section_downInfo_txt {
       display: flex;
     flex-direction: column;

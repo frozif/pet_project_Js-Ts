@@ -1,0 +1,598 @@
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Адаптация сайта */
+
+@media (max-width: 1250px){
+
+/* ---------------------------------------------------- */
+
+/* нижная часть шапки сайта */
+
+
+
+.header_down_img {
+    width: 600px;
+}
+
+.header_down_h1{
+font-size: 160px;
+color: var(--black);
+transform: translate(56px, -102px);
+}
+
+.header_down_air{
+        transform: translate(-3.20em, -0.5em);
+}
+ .header_down_span1{
+transform: translate(-1.5em, -1.135em);
+ }
+
+
+
+      .header_down_span4{
+        transform: translate(1.44em, 0.8em);
+    }
+
+.header_down_span3{
+        transform: translate(0.55em, 0.8em);
+}
+
+.header_down_span2{
+transform: translate(0.1em, -0.30em);
+}
+
+
+.header_down::after{
+width: 446px;
+height: 446px;
+    transform: translate(7em, -4em);
+}
+}
+  
+@media (max-width: 1200px){
+  /* ---------------------------------------------------- */
+ /* карточки для выбора цвета */
+
+ .section_typeColor_downCards{
+  flex-wrap: wrap;
+ }
+}
+
+/* ---------------------------------------------------- */
+
+
+@media (max-width: 1200px){
+  /* ---------------------------------------------------- */
+/* Информация про наушники */
+.Colorinfo_title {
+    font-size: 54px;
+}
+}
+
+/* ---------------------------------------------------- */
+
+@media (max-width: 950px){
+
+
+/* нижная часть шапки сайта */
+
+
+
+.header_down_img {
+    width: 550px;
+}
+
+.header_down_h1{
+font-size: 140px;
+color: var(--black);
+transform: translate(56px, -102px);
+}
+
+.header_down_air{
+transform: translate(-3.29em, -0.4em);
+}
+ .header_down_span1{
+transform: translate(-1.5em, -1.135em);
+ }
+
+
+
+      .header_down_span4{
+        transform: translate(1.54em, 0.8em);
+    }
+
+.header_down_span3{
+        transform: translate(0.55em, 0.9em);
+}
+
+.header_down_span2{
+transform: translate(0.1em, -0.25em);
+}
+
+
+.header_down::after{
+width: 446px;
+height: 446px;
+    transform: translate(7em, -4em);
+}
+
+/* ---------------------------------------------------- */
+
+  /* ---------------------------------------------------- */
+/* Информация про наушники */
+.Colorinfo_title {
+    font-size: 45px;
+}
+
+.Colorinfo_subtitle {
+    font-size: 14px;
+    max-width: 550px;
+}
+
+.Colorinfo_infoTxt p {
+    font-size: 15px;
+    width: 210px;
+  }
+
+/* ---------------------------------------------------- */
+/* текст С информацией про батарею */
+
+.section_battery_title {
+    font-size: 45px;
+    
+}
+
+.section_battery_subtitle {
+    font-size: 15px;
+}
+
+/* ---------------------------------------------------- */
+/* Информация про Звук */
+
+.section_downInfo_title {
+    font-size: 54px;
+}
+
+.section_downInfo_subtitle {
+    font-size: 200px;
+}
+}
+
+/* ---------------------------------------------------- */
+
+
+
+@media (max-width: 850px){
+/* ---------------------------------------------------- */
+
+/* Верхняя панель навигации */
+.header_nav_img{
+width: 24px;
+} 
+
+.header_nav_up{
+gap: 20px;
+font-size: 14px;
+}
+
+.header_nav_up_btn{
+width: 110px;
+height: 40px;
+padding: 10px 30px;
+font-size: 14px;
+  }
+
+/* ---------------------------------------------------- */
+
+
+
+/* нижная часть шапки сайта */
+
+
+
+.header_down_img {
+    width: 500px;
+}
+
+.header_down_h1{
+font-size: 120px;
+transform: translate(56px, -102px);
+}
+
+.header_down_air{
+transform: translate(-3.47em, -0.34em);
+}
+ .header_down_span1{
+transform: translate(-1.55em, -1.2em);
+ }
+
+
+
+      .header_down_span4{
+        transform: translate(1.67em, 0.8em);
+    }
+
+.header_down_span3{
+        transform: translate(0.56em, 1.05em);
+}
+
+.header_down_span2{
+transform: translate(0.1em, -0.1em);
+}
+
+}
+
+/* ---------------------------------------------------- */
+
+@media (max-width: 800px){
+
+  /* ---------------------------------------------------- */
+/* Информация про наушники */
+.Colorinfo_title {
+    font-size: 37px;
+}
+
+.Colorinfo_subtitle {
+    font-size: 13px;
+    max-width: 520px;
+}
+
+.Colorinfo_infoTxt p {
+    font-size: 14px;
+    width: 195px;
+  }
+
+/* ---------------------------------------------------- */
+/* текст С информацией про батарею */
+
+.section_battery_title {
+    font-size: 37px;
+    
+}
+
+.section_battery_subtitle {
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------- */
+/* Информация про Звук */
+
+.section_downInfo_title {
+    font-size: 37px;
+}
+
+.section_downInfo_subtitle {
+    font-size: 170px;
+}
+.section_downInfo_subtitleTwo {
+    font-size: 14px;
+    width: 340px;
+}
+}
+
+/* ---------------------------------------------------- */
+
+
+@media (max-width: 750px){
+
+/* ---------------------------------------------------- */
+
+
+
+/* нижная часть шапки сайта */
+
+
+
+.header_down_img {
+    width: 400px;
+}
+
+.header_down_h1{
+font-size: 100px;
+transform: translate(56px, -102px);
+}
+
+.header_down_air{
+transform: translate(-3.52em, -0.2em);
+}
+ .header_down_span1{
+transform: translate(-1.5em, -1.2em);
+ }
+
+
+
+      .header_down_span4{
+        transform: translate(1.56em, 0.8em);
+    }
+
+.header_down_span3{
+        transform: translate(0.42em, 1.2em);
+}
+
+.header_down_span2{
+transform: translate(-0.05em, 0.05em);
+}
+
+}
+
+/* ---------------------------------------------------- */
+
+@media (max-width: 640px){
+
+  /* ---------------------------------------------------- */
+/* Информация про наушники */
+.Colorinfo_title {
+    font-size: 30px;
+}
+
+.Colorinfo_subtitle {
+    font-size: 11px;
+    max-width: 430px;
+}
+
+.Colorinfo_infoTxt p {
+    font-size: 12px;
+    width: 160px;
+  }
+
+/* ---------------------------------------------------- */
+/* текст С информацией про батарею */
+
+.section_battery_title {
+    font-size: 30px;
+    
+}
+
+.section_battery_subtitle {
+    font-size: 11px;
+}
+
+.section_battery_img {
+    width: 300px;
+}
+/* ---------------------------------------------------- */
+/* Информация про Звук */
+
+.section_downInfo_title {
+    font-size: 32px;
+}
+
+.section_downInfo_subtitle {
+    font-size: 150px;
+}
+.section_downInfo_subtitleTwo {
+    font-size: 12px;
+    width: 290px;
+}
+}
+
+/* ---------------------------------------------------- */
+
+@media (max-width: 600px){
+
+/* ---------------------------------------------------- */
+
+
+
+/* нижная часть шапки сайта */
+
+
+
+.header_down_img {
+    width: 300px;
+}
+
+.header_down_h1{
+font-size: 70px;
+transform: translate(56px, -102px);
+}
+
+.header_down_air{
+transform: translate(-3.86em, 0.2em);
+}
+ .header_down_span1{
+transform: translate(-1.6em, -1.25em);
+ }
+
+
+
+      .header_down_span4{
+        transform: translate(1.72em, 0.8em);
+    }
+
+.header_down_span3{
+        transform: translate(0.29em, 1.65em);
+}
+
+.header_down_span2{
+transform: translate(-0.25em, 0.49em);
+}
+
+
+  /* ---------------------------------------------------- */
+/* Информация про наушники */
+.Colorinfo_title {
+    font-size: 25px;
+}
+
+.Colorinfo_subtitle {
+    font-size: 9px;
+    max-width: 360px;
+}
+
+
+  .Colorinfo_info {
+flex-direction: column-reverse;
+}
+/* ---------------------------------------------------- */
+/* текст С информацией про батарею */
+
+.section_battery_title {
+    font-size: 25px;
+    
+}
+
+.section_battery_subtitle {
+    font-size: 9px;
+    width: 270px;
+}
+
+.section_battery_img {
+    width: 260px;
+}
+
+
+/* ---------------------------------------------------- */
+/* Информация про Звук */
+
+.section_downInfo_title {
+    font-size: 27px;
+}
+
+.section_downInfo_subtitle {
+    font-size: 130px;
+}
+.section_downInfo_subtitleTwo {
+    font-size: 10px;
+    width: 240px;
+}
+
+
+/* ---------------------------------------------------- */
+
+/* Верхняя панель навигации */
+.header_nav_img{
+width: 20px;
+} 
+
+.header_nav_up{
+gap: 14px;
+font-size: 13px;
+}
+
+.header_nav_up_btn{
+width: 90px;
+height: 34px;
+padding: 6px 18px;
+font-size: 12px;
+  }
+
+}
+
+/* ---------------------------------------------------- */
+
+
+@media (max-width: 450px){
+
+/* ---------------------------------------------------- */
+
+/* нижная часть шапки сайта */
+
+
+.header_down_img {
+    width: 250px;
+}
+
+.header_down_h1{
+font-size: 60px;
+transform: translate(56px, -102px);
+}
+
+.header_down_air{
+transform:  translate(-3.97em, 0.5em);
+}
+ .header_down_span1{
+transform: translate(-1.56em, -1.2em);
+ }
+
+
+
+      .header_down_span4{
+        transform: translate(1.67em, 0.8em);
+    }
+
+.header_down_span3{
+        transform: translate(0.1em, 1.9em);
+}
+
+.header_down_span2{
+transform: translate(-0.36em, 0.75em);
+}
+
+/* Информация про наушники */
+.Colorinfo_title {
+    font-size: 20px;
+}
+
+.Colorinfo_subtitle {
+    font-size: 8px;
+    max-width: 360px;
+}
+
+
+/* ---------------------------------------------------- */
+/* текст С информацией про батарею */
+
+.section_battery_title {
+    font-size: 20px;
+    
+}
+
+.section_battery_subtitle {
+    font-size: 8px;
+    width: 270px;
+}
+
+.section_battery_img {
+    width: 260px;
+}
+
+
+/* ---------------------------------------------------- */
+/* Информация про Звук */
+
+.section_downInfo_title {
+    font-size: 20px;
+}
+
+.section_downInfo_subtitle {
+    font-size: 100px;
+}
+.section_downInfo_subtitleTwo {
+    font-size: 9px;
+    width: 240px;
+}
+
+
+/* ---------------------------------------------------- */
+
+/* Верхняя панель навигации */
+.header_nav_img{
+width: 20px;
+} 
+
+.header_nav_up{
+gap: 14px;
+font-size: 13px;
+}
+
+.header_nav_up_btn{
+width: 90px;
+height: 34px;
+padding: 6px 18px;
+font-size: 12px;
+  }
+
+/* ---------------------------------------------------- */
+
+  .section_typeColor_title {
+font-size: 20px;
+}
+.section_typeColor_subtitle {
+font-size: 9px;
+}
+}
+
+/* ---------------------------------------------------- */

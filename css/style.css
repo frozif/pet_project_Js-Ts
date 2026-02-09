@@ -1,0 +1,504 @@
+/* Настройка Сайта */
+:root {
+	--black: #000;
+	--grey: #777;
+	--milk: #fafafa;
+	--white: #fff;
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 5px;
+  max-width: 1550px;
+}
+/* ---------------------------------------------------- */
+
+/* Главная навигационная Панель Сайта */
+
+
+
+.header_main {
+      background: linear-gradient(180deg, #f3d6d1 0%, rgba(235, 235, 235, 0) 100%);
+}
+.container {
+}
+.header_nav {
+  display: flex;
+      align-items: center;
+    justify-content: space-between;
+        padding-top: 40px;
+}
+.header_nav_img {
+}
+.header_nav_up {
+  font-weight: 700;
+font-size: 16px;
+color: var(--black);
+font-family: var(--font-family);
+display: flex;
+align-items: center;
+gap: 40px ;
+}
+
+.header_nav_up  a{
+color: var(--black);
+}
+.header_nav_up_btn {
+  border-radius: 30px;
+padding: 15px 58px;
+width: 150px;
+height: 50px;
+background: var(--black);
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+color: var(--white);
+}
+
+/* ---------------------------------------------------- */
+
+/* Нижная часть шапки профиля */
+
+.header_down {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+      position: relative; 
+          pointer-events: none;
+              user-select: none;
+          margin-top: 40px;
+              overflow: hidden;
+}
+
+.header_down_txt{
+  display: flex;
+}
+
+
+.header_down_img {
+    width: 800px;
+    z-index: 2;
+      transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.header_down_img.hide{
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.header_down_h1{
+position: absolute;
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 210px;
+line-height: 1;
+color: var(--black);
+transform: translate(39px, -114px);
+  gap: 10px;
+}
+
+.header_down_air{
+left: 50%;
+    top: 50%;
+    position: absolute;
+    /* transform: translate(-2.17em, -0.5em); */
+        transform: translate(-3.09em, -0.5em);
+}
+ .header_down_span1{
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+    /* transform: translate(-197px, -112px); */
+        transform: translate(-1.5em, -1.05em);
+ }
+
+
+
+      .header_down_span4{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(2.4em, 0.8em); */
+        transform: translate(1.47em, 0.8em);
+    z-index: -1;
+    }
+
+.header_down_span3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(1.65em, 0.7em); */
+        transform: translate(0.71em, 0.7em);
+}
+
+.header_down_span2{
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(1.27em, -0.37em); */
+        transform: translate(0.35em, -0.37em);
+}
+
+
+.header_down::after{
+content: "";
+position: absolute;
+border-radius: 100%;
+background-color: #f3d6d1;
+width: 446px;
+height: 446px;
+filter: blur(150px);
+    top: 50%;
+    transform: translate(7em, -4em);
+    left: 50%;
+    z-index: -2;
+}
+
+/* ---------------------------------------------------- */
+/* Выбор цвета */
+
+.section_typeColor {
+      margin-top: 40px;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container.container_typeColor {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_typeColor_up {
+    display: flex;
+        gap: 20px;
+    flex-direction: column;
+    max-width: 520px;
+        margin-top: 40px;
+}
+.section_typeColor_title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 1;
+text-align: center;
+color: var(--black);
+}
+.section_typeColor_subtitle {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 1;
+text-align: center;
+color: var(--black);
+}
+
+/* ---------------------------------------------------- */
+
+/* Карточки с Цветами наушников */
+
+.section_typeColor_down {
+      margin-top: 80px;
+}
+.section_typeColor_downCards {
+  display: flex;
+  flex-wrap: nowrap;
+overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section_typeColor_downCard {
+max-width: 220px;
+flex-shrink: 0;
+  transition: transform .35s cubic-bezier(.2,.8,.2,1);
+}
+
+
+
+.section_typeColor_CardImg img {
+width: auto;
+height: 140px;
+}
+
+
+.section_typeColor_CardImg  {
+width: 200px;
+height: 220px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px;
+  border: 1px solid var(--grey);
+border-radius: 20px;
+background: rgba(217, 217, 217, 0);
+  transition:
+    box-shadow .35s cubic-bezier(.2,.8,.2,1),
+    border-color .35s ease,
+    background-color .35s ease;
+}
+
+.section_typeColor_downCard:hover{
+    transform: translateY(-6px);
+}
+
+.section_typeColor_downCard.is_active{
+  transform: translateY(-8px);
+}
+
+.section_typeColor_downCard.is_active .section_typeColor_CardImg{
+    border-color: #000;
+  background-color: rgba(0,0,0,.02);
+  box-shadow: 0 16px 35px rgba(0,0,0,.16);
+}
+/* ---------------------------------------------------- */
+
+/* Информация про наушники */
+
+.section_Colorinfo {
+margin-top: 150px;
+}
+.container {
+}
+.Colorinfo_main {
+}
+.Colorinfo_txt {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.Colorinfo_title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+color: var(--black);
+}
+.Colorinfo_subtitle {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+color: var(--black);
+    max-width: 640px;
+}
+
+.Colorinfo_infoImg{
+  width: 245px;
+height: 425px;
+transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.Colorinfo_infoImg.hide{
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.Colorinfo_info {
+        display: flex;
+    margin-top: 40px;
+    justify-content: center;
+        align-items: center;
+    gap: 150px;
+}
+.Colorinfo_infoTxt {
+        display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.Colorinfo_infoTxt p{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+color: var(--black);
+width: 230px;
+}
+
+/* ---------------------------------------------------- */
+
+/* Информация про Зарядку Наушников */
+
+.section_battery {
+  margin-top: 180px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+}
+.section_batteryMain {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section_battery_txt {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.section_battery_title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+color: var(--black);
+}
+.section_battery_subtitle {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+color: var(--black);
+}
+
+.section_battery_img{
+  width: 400px;
+margin-top: 40px;
+      transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.section_battery_img.hide{
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+
+/* ---------------------------------------------------- */
+
+/* Информация про время использования наушников */
+
+.section_downInfo {
+  margin-top: 80px;
+}
+.container {
+}
+.section_downInfo_txt {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.section_downInfo_title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+color: var(--black);  
+}
+.section_downInfo_subtitle {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 210px;
+line-height: 120%;
+color: var(--black);
+}
+.section_downInfo_subtitleTwo {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+color: var(--black);
+width: 390px;
+}
+
+/* ---------------------------------------------------- */
+/* Панель для покупки */
+.section_buy{
+  margin-top: 90px;
+background-image: url(/img/footerPanelimg.png);
+  width: 100%;  
+height: 2200px;
+    overflow: hidden;  
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items:flex-end;
+  justify-content:center;
+position: relative;
+}
+
+.section_buy_img{
+  width: 100%;
+  max-width: 1930px;
+  height: auto;
+}
+
+.section_buy_main{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.audio_box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+position: absolute;
+top: 60%;
+}
+.audio_txt {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+color: var(--white);
+width: 280px;
+margin-top: 20px;
+}
+.audio_btn {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+color: var(--black);
+border-radius: 30px;
+width: 150px;
+height: 50px;
+padding: 15px 58px;
+display: flex;
+align-items: center;
+background: var(--white);
+border:0;
+margin-top: 40px;
+}
+/* ---------------------------------------------------- */
+/* Падвал сайта */
+
+.footer_info {
+  background-color: var(--black);
+  width: auto ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
